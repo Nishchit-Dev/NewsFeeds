@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import Logo from './logo';
 import NavLinks from './nav';
-
+import './header.css'
 const Header = ()=>{
     return(
-        <div>
-            <div>
+        <div className='headerOuter'>
+            <div className='LogoCon'>
                 <Logo/>
             </div>
-            <div>
+            <div className='NavCon'>
                 <NavLinks/>
             </div>
         </div>

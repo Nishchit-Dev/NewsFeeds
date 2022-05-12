@@ -3,8 +3,8 @@ import React from 'react';
 
 const Logo = ()=>{
         return (
-            <div>
-                Logo
+            <div >
+               <h2>NewsFeeds</h2> 
             </div>
         )
 }

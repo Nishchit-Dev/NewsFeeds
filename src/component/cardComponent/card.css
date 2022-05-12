@@ -5,10 +5,10 @@
     font-family: 'Poppins';
 }
 .bgMain > img{
+    object-fit: cover;
     z-index: -1;
     position: fixed;
     width: 100%;
-    overflow:auto;
 }
 body{
     margin: 0px;
@@ -29,7 +29,7 @@ body{
     border-radius: 10px 10px 0px 0px;
     width: 100%;
 }
-.cardInner > h2 , p {
+.cardInner > h2 , p ,h4{
     color: white;
     padding:0px 25px 0px 25px;
 }
@@ -41,7 +41,7 @@ body{
     font-size: small;
     font-weight: 200;
 }
-.cardInner > p:last-child{
+.cardInner > h4:last-child{
 
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }

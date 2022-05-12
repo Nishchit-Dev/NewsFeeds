@@ -20,7 +20,8 @@ const Card = ({data})=>{
             <div className='cardInner'>
                 <img src={data.urlToImage}/>
                 <h2>{data.title}</h2>   
-                <p>{calculateTime(data.publishedAt)}</p>             
+                <p>{calculateTime(data.publishedAt)}</p>       
+                <h4>{data.source.name}</h4>      
             </div>
         </div>
     )
