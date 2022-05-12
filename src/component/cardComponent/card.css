@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@600;800&display=swap');
+
+#root{
+    background-image: url('https://mocah.org/mocahbig/478737-top-view-sand-beach-rocks-waves-nature-water.jpg');
+}
+*{
+    font-family: 'Poppins';
+}
+.cardOuter{
+    background-color: brown;
+    border-radius: 10px;
+    width:30%;
+    margin: 0 auto;
+}
+.cardInner{
+    height: 200%;
+    width: 100%;
+}
+.cardInner > img{
+    height: 80%;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+.cardInner > h2 , p {
+    color: white;
+    padding:0px 25px 0px 25px;
+}
+.cardInner > h2{
+    font-weight: 600;
+}
+.cardInner > p{
+    color: #ffffffb3;
+    font-size: small;
+    font-weight: 200;
+}
+.cardInner > p:last-child{
+
+    padding-bottom: 30px;
+}
