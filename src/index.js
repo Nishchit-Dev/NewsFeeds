@@ -5,16 +5,19 @@ import News from "./component/News";
 import Connect from "./component/connect";
 import Header from "./component/headerComponents/header";
 import App from "./App";
-
+import img from "./resources/Beachbackground.jpg";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
-    <Header />
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/News" element={<News />} />
-      <Route path="/Connect" element={<Connect />} />
-    </Routes>
-  </BrowserRouter>
+  <div className="bgMain" >
+      <img src={img}/>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/News" element={<News />} />
+        <Route path="/Connect" element={<Connect />} />
+      </Routes>
+    </BrowserRouter>
+  </div>
 );

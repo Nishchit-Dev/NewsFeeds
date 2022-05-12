@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@600;800&display=swap');
 
-#root{
-    background-image: url('https://mocah.org/mocahbig/478737-top-view-sand-beach-rocks-waves-nature-water.jpg');
-}
+
 *{
     font-family: 'Poppins';
 }
+.bgMain > img{
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    overflow:auto;
+}
+body{
+    margin: 0px;
+}
 .cardOuter{
-    background-color: brown;
+    backdrop-filter: blur(62px);
+    background: rgba(53, 53, 53, 0.47);
     border-radius: 10px;
-    width:30%;
+    width:35%;
     margin: 0 auto;
 }
 .cardInner{
