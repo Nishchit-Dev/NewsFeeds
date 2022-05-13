@@ -1,7 +1,10 @@
 import React from 'react';
 import './card.css'
 const Card = ({data})=>{
-
+    const onClickHnalder = (event)=>{
+        event.preventDefault();
+        window.open(data.url)
+    }
     const calculateTime = (time)=>{
         const PA = new Date().getTime() -new Date(time).getTime();
         const Tempdate = new Date(PA);
@@ -16,7 +19,7 @@ const Card = ({data})=>{
     }
 
     return(
-        <div className='cardOuter'>
+        <div className='cardOuter' onClick={onClickHnalder}>
             <div className='cardInner'>
                 <img src={data.urlToImage}/>
                 <h2>{data.title}</h2>   

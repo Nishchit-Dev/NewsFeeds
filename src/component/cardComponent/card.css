@@ -2,6 +2,7 @@
 
 
 .cardOuter{
+    cursor: pointer;
     backdrop-filter: blur(62px);
     background: rgba(53, 53, 53, 0.47);
     border-radius: 10px;
