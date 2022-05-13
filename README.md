@@ -13,7 +13,7 @@ snapshot of NewsFeed app
  - [ ] show news 
     - [x] show topheadline with media 
     - [ ] show top news with grid layout 
- - [ ] add connect with developer button
+ - [x] add connect with developer button
  
  - [ ] optional currently 
     - [ ] add search bar to search for news 
