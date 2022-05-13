@@ -13,4 +13,3 @@ export const NEWAPI = {
     url:'https://newsapi.org/v2/top-headlines',
     params:{country:'us',apiKey:'caa5a90f0685491ba21b609e1ea2b841'}
 }
-// https://newsapi.org/v2/top-headlines?country=us&apiKey=caa5a90f0685491ba21b609e1ea2b841

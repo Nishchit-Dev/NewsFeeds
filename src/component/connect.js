@@ -6,7 +6,7 @@ const connect = () => {
   return (
     <div className="ConnectCon">
       <div className="ContentCon">
-        <h1>Connect to Developer</h1>
+        <h1>Connect with Developer</h1>
       </div>
       <div className="DevInfoCon">
         <div className="DevCon">
