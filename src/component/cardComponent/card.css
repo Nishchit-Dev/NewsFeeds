@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@600;800&display=swap');
 
 
-*{
-    font-family: 'Poppins';
-}
-.bgMain > img{
-    object-fit: cover;
-    z-index: -1;
-    position: fixed;
-    width: 100%;
-}
-body{
-    margin: 0px;
-}
 .cardOuter{
     backdrop-filter: blur(62px);
     background: rgba(53, 53, 53, 0.47);

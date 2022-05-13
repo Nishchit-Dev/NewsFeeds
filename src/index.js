@@ -15,7 +15,7 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/News" element={<News />} />
+        <Route path="/News" element={<App />} />
         <Route path="/Connect" element={<Connect />} />
       </Routes>
     </BrowserRouter>

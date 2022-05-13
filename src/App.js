@@ -3,7 +3,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { GoogleNewApi, NEWAPI } from "./component/apiRequest";
 import Card from "./component/cardComponent/card";
-import './app.css'
+import "./app.css";
 // NEWAPI
 // https://newsapi.org/v2/everything?domains=wsj.com&apiKey=caa5a90f0685491ba21b609e1ea2b841
 
@@ -44,7 +44,14 @@ const App = () => {
     return <Card data={data} />;
   });
 
-  return <div className="sectionScroll"> {map}</div>;
+  return (
+    <div className="sectionScroll">
+      <div className="topHeadlines">
+        <h1>Top Headlines</h1>
+      </div>
+      {map}
+    </div>
+  );
 };
 
 export default App;
