@@ -35,8 +35,8 @@
     margin: 0 auto;
 }
 .workingOn > p,.DevCon>h3,.infoCon>h2{
-    padding-left:30px;
-    padding-right: 30px;
+    padding-left:35px;
+    padding-right: 35px;
     color: white;
 }
 .workingOn {
@@ -89,3 +89,27 @@ a{
  text-decoration: none;
 }
 
+@media screen and (max-width:700px){
+    .ContentCon{
+        margin-top: 50px;
+    }
+    .ContentCon>h1{
+        font-size: 20px;
+    }
+    .workingOn > p,.DevCon>h3   {
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .infoCon>h2{
+        padding-left: 60px;
+    }
+
+.DevCon{
+    border-radius: 10px;
+    backdrop-filter: blur(62px);
+    background: rgba(125, 125, 125, 0.124);
+    width: 60%;
+    min-width: 80%;
+    margin: 0 auto;
+}
+}

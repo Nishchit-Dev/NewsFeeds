@@ -27,9 +27,9 @@ const connect = () => {
           </div>
 
           <div>
-            <h2 id="headOne">#Developer</h2>
+            <h2 id="headOne">#SocialMedia</h2>
           </div>
-        
+
           <div className="socialCon">
             <div className="twitterHandle">
               <a href="https://twitter.com/0xNishchit?t=4nqoDVSYR5Sq2q06ojQFmA&s=09">
