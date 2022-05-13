@@ -1,5 +1,10 @@
 snapshot of NewsFeed app 
-![image](https://user-images.githubusercontent.com/83442510/168147956-34d555dc-58f2-4719-a75b-54c7b50efbe5.png)
+
+# SNAP1
+![image](https://user-images.githubusercontent.com/83442510/168229649-99ed134d-4037-458a-a03f-ebf734f356ff.png)
+# SNAP2
+![image](https://user-images.githubusercontent.com/83442510/168229732-c0d7e23e-0a71-4712-a5ef-ae8cf0480808.png)
+
 
 
  - [ ] fetch news
